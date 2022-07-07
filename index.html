@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div id="display">0</div>
+        <div class="row">
+            <button class="element grey reset" id="ac">AC</button>
+            <button class="element grey" id="backspace">←</button>
+            <button class="element op yellow" id="divide" value="divide">÷</button>
+        </div>
+        <div class="row">
+            <button class="element num" id="seven" value="7">7</button>
+            <button class="element num" id="eight" value="8">8</button>
+            <button class="element num" id="nine" value="9">9</button>
+            <button class="element op yellow" id="multiply" value="multiply">×</button>
+        </div>
+        <div class="row">
+            <button class="element num" id="four" value="4">4</button>
+            <button class="element num" id="five" value="5">5</button>
+            <button class="element num" id="six" value="6">6</button>
+            <button class="element op yellow" id="subtract" value="subtract">-</button>
+        </div>
+        <div class="row">
+            <button class="element num" id="one" value="1">1</button>
+            <button class="element num" id="two" value="2">2</button>
+            <button class="element num" id="three" value="3">3</button>
+            <button class="element op yellow" id="add" value="add">+</button>
+        </div>
+        <div class="row">
+            <button class="element num" id="zero" value="0">0</button>
+            <button class="element" id="dot" value=".">.</button>
+            <button class="element yellow" id="equals">=</button>
+        </div>
+    </div>
+    <div class="last-result">Last result:</div>
+    <div class="equation-container">
+        <div id="first-no"></div>
+        <div id="operator"></div>
+        <div id="second-no"></div>
+        <div id="equals-symbol"></div>
+        <div id="result"></div>
+    </div>
+    
+</body>
+</html>
